@@ -5,11 +5,8 @@
     <script src="https://kit.fontawesome.com/1a3af67487.js" crossorigin="anonymous"></script>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-     <section class="home-section">
     
-  </section>
   <div class="sidebar close">
-    
     <div class="logo-details">
     <div class="home-content">
       <i class='bx bx-menu' ></i>

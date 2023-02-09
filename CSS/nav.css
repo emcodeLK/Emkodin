@@ -16,7 +16,7 @@
   height: 100%;
   width: 260px;
   background: #1a1818;
-  z-index: 100;
+  /* z-index: 100; */
   transition: all 0.5s ease;
 }
 .sidebar.close{
@@ -166,7 +166,7 @@
 }
 .sidebar .profile-details{
   position: fixed;
-  bottom: 0;
+  bottom: 0px;
   width: 260px;
   display: flex;
   align-items: center;
