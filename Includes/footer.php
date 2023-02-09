@@ -1,54 +1,145 @@
-<link rel="stylesheet" type="text/css" href="../CSS/footer.css">
-<link href="../CSS/bootstrap.min.css" rel="stylesheet">
-<script src="https://kit.fontawesome.com/1a3af67487.js" crossorigin="anonymous"></script>
-  <!-- Site footer -->
-  <footer class="site-footer">
-	<div class="container">
-	  <div class="row">
-		<div class="col-sm-12 col-md-6">
-		  <h6>About</h6>
-		  <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the
-			upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or
-			snippets as the code wants to be simple. We will help programmers build up concepts in different
-			programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android,
-			SQL and Algorithm.</p>
-		</div>
-		<div class="col-xs-6 col-md-3">
-		  <br><br>
-		  <br><br>
-		  <br><br>
-		  <br><br>
-		  <br><br>
-		</div>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style media="screen">
+      *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #fcfcfc;
+    font-family: sans-serif;
+}
+footer{
+    position: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
 
-		<div class="col-xs-6 col-md-3">
-		  <h6>Quick Links</h6>
-		  <ul class="footer-links">
-			<li><a href="http://scanfcode.com/about/">About Us</a></li>
-			<li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
-			<li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
-			<li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
-			<li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
-		  </ul>
-		</div>
-	  </div>
-	  <hr>
-	</div>
-	<div class="container">
-	  <div class="row">
-		<div class="col-md-8 col-sm-6 col-xs-12">
-		  <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
-	   <a href="#">Emkodin</a>.
-		  </p>
-		</div>
-		<div class="col-md-4 col-sm-6 col-xs-16">
-		  <ul class="social-icons">
-			<li><a class="facebook" href="#"><i style="padding-top: 10px;" class="fa fa-facebook"></i></a></li>
-			<li><a class="twitter" href="#"><i style="padding-top: 10px;" class="fa fa-twitter"></i></a></li>
-			<li><a class="dribbble" href="#"><i style="padding-top: 10px;" class="fa fa-instagram"></i></a></li>
-			<li><a class="tiktok" href="#"><i style="padding-top: 10px;" class="fab fa-tiktok"></i></a></li>   
-		  </ul>
-		</div>
-	  </div>
-	</div>
-</footer>
+    border-radius: 50%;
+
+}
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+
+
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px;
+padding-bottom: 40px;
+    text-align: center;
+}
+.footer-bottom p{
+float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom p a{
+  color:#44bae8;
+  font-size: 16px;
+  text-decoration: none;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.footer-menu{
+  float: right;
+
+}
+.footer-menu ul{
+  display: flex;
+}
+.footer-menu ul li{
+padding-right: 10px;
+display: block;
+}
+.footer-menu ul li a{
+  color: #cfd2d6;
+  text-decoration: none;
+}
+.footer-menu ul li a:hover{
+  color: #27bcda;
+}
+
+@media (max-width:500px) {
+.footer-menu ul{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+}
+    </style>
+</head>
+<body>
+    <footer>
+        <div class="footer-content">
+            <h3 style="padding-left: 50px;">Emkodin</h3>
+            <p style="padding-left: 50px;">A place where
+			Software comes to life.<br>We do any kind of Software Project/Assignments.</p>
+            <ul class="socials" style="padding-left: 50px;">
+                <li><a href="https://www.facebook.com/emkodin/"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="https://www.instagram.com/emkodin/"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://twitter.com/emkodin"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="mailto:emkodin@gmail.com"><i class="fa fa-google-plus"></i></a></li>
+				<li><a href="https://www.tiktok.com/@emkodin?is_from_webapp=1&sender_device=pc"><i class="fa fa-tiktok"></i></a></li>
+                <!-- <li><a href="#"><i class="fa fa-youtube"></i></a></li> -->
+                <!-- <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li> -->
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright &copy; 2023 <a href="#">Emkodin</a></p>
+        </div>
+
+    </footer>

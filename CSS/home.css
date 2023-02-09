@@ -1,0 +1,12 @@
+.Image
+{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../Image/bg.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 10px;
+    text-align: center;
+    color: #fff;
+}
