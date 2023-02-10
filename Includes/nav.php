@@ -1,5 +1,5 @@
 
-    <link rel="stylesheet" href="../CSS/nav.css">
+    <link rel="stylesheet" href="CSS/nav.css">
     <!-- Boxiocns CDN Link -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/1a3af67487.js" crossorigin="anonymous"></script>
@@ -69,7 +69,7 @@
       
     <div class="profile-details">
       <div class="profile-content">
-        <img src="../Image/EM.png" alt="profileImg">
+        <img src="Image/EM.png" alt="profileImg">
       </div>
       <div class="name-job">
         <div class="profile_name">Emal Yaditha</div>
@@ -82,5 +82,5 @@
   </div>
  
 
-  <script src="../JS/nav.js"></script>
+  <script src="JS/nav.js"></script>
 
