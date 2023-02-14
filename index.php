@@ -4,21 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/home.css">
+     <link rel = "icon" href = "Image/EM icon.ico" type = "image/x-icon">
     <title>Emkodin</title>
 </head>
 <body>
     <section class="nav">
     <?php include "Includes/nav.php";?>
     </section>
-    <section style="padding-left: 500px;" class="Image" id="image" >
-      <div style="padding-top: 200px; padding-right: 490px;  ">
-        <h2 style="font-size: 50px; position: static; ">Hello,<span></span></h2>
-        <h2 style="font-size: 50px;">Welcome to<span></span></h2>
-        <h2 style="font-size: 20px;">Emkodin<span></span></h2>
-        <br><br><br><br><br><br>
-      </div>
-</section> 
+<section>
+<div class="masthead"style= "background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('Image/bg.jpg');">
+      <div class="color-overlay d-flex flex-column justify-content-center align-items-center">
+        <br><br><br><br><br><br><br><br><br><br><br><br> 
+        <h2 style="font-size: 50px;  color: #fff;">Hello,<span></span></h2>
+        <h2 style="font-size: 50px;  color: #fff;">Welcome to<span></span></h2>
+        <h2 style="font-size: 20px;  color: #fff;">Emkodin<span></span></h2>
+        <br><br><br><br><br><br><br><br><br><br><br><br> 
+    </div>
+</div>
+</section>
 <section id="card">
 <div class="header" style="padding-left: 50px;">
     <h1 hidden>Our</h1>

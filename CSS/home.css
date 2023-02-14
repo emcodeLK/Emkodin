@@ -1,7 +1,7 @@
-.Image
+/* .Image
 {
-    max-width: 100%;
-    height: auto;
+   
+    height: auto; max-width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../Image/bg.jpg); 
     background-size: cover;
     background-position: center;
@@ -9,4 +9,32 @@
     padding-top: 10px;
     text-align: center;
     color: #fff;
+} */
+
+.masthead {
+    background-size: cover;
+    min-height: 60vh;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.color-overlay {
+    position: absolute;
+    background-color: rgba(0,0,0,0.2);
+    height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .masthead {
+        min-height: 30vh;
+    }
+    h1 {
+        font-size: calc(1.525rem + 3.3vw);
+    }
 }
