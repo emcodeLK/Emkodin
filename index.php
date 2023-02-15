@@ -14,12 +14,12 @@
     <?php include "Includes/nav.php";?>
     </section>
 <section>
-<div class="masthead"style= "background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('Image/bg.jpg');">
+<div class="masthead"style= "background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('Image/bg.jpg');  height: auto;">
       <div class="color-overlay d-flex flex-column justify-content-center align-items-center">
         <br><br><br><br><br><br><br><br><br><br><br><br> 
-        <h2 style="font-size: 50px;  color: #fff;">Hello,<span></span></h2>
-        <h2 style="font-size: 50px;  color: #fff;">Welcome to<span></span></h2>
-        <h2 style="font-size: 20px;  color: #fff;">Emkodin<span></span></h2>
+        <h2 style="font-size: 50px;  color: #fff; padding-left: 50px;">Hello,<span></span></h2>
+        <h2 style="font-size: 50px;  color: #fff; padding-left: 70px;">Welcome to<span></span></h2>
+        <h2 style="font-size: 20px;  color: #fff; padding-left: 50px;">Emkodin<span></span></h2>
         <br><br><br><br><br><br><br><br><br><br><br><br> 
     </div>
 </div>

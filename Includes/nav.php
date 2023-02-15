@@ -2,18 +2,10 @@
     <link rel="stylesheet" href="CSS/nav.css">
     <!-- Boxiocns CDN Link -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-    <script src="https://kit.fontawesome.com/1a3af67487.js" crossorigin="anonymous"></script>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    
   <div class="sidebar close">
-    <div class="logo-details">
-    <div class="home-content">
-      <i class='bx bx-menu' ></i>
-      <!-- <i class="fa-solid fa-code"></i> -->
-    </div>
-      <span class="logo_name">Emkodin</span>
-    </div>
+
     <ul class="nav-links">
       <li>
         <a href="#">
@@ -80,7 +72,12 @@
   </li>
 </ul>
   </div>
- 
+
+    <div class="home-content" style="padding-left: 260px;">
+      <i class='bx bx-menu' ></i>
+      <span class="text">EMKODIN</span>
+    </div>
 
   <script src="JS/nav.js"></script>
+
 
